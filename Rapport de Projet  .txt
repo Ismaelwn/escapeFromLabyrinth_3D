@@ -1,0 +1,27 @@
+Rapport de Projet : 
+Introduction
+Dans le cadre de notre projet de fin de semestre en infographie, nous avons développé une application en Processing qui simule un paysage avec des pylônes électriques et des éoliennes animées en 3D. Ce projet combine des techniques de modélisation 3D, de texturage, d'animation, et d'interaction utilisateur pour offrir une expérience immersive et éducative.
+Objectifs
+Nos principaux objectifs pour ce projet étaient les suivants :
+Modéliser des pylônes et des éoliennes en 3D.
+Animer les éoliennes pour simuler leur fonctionnement en temps réel.
+Implémenter une caméra contrôlable par l'utilisateur pour explorer le paysage.
+Gérer l'éclairage et les shaders pour un rendu réaliste.
+Développement Modélisation 3D :
+Nous avons commencé par modéliser les pylônes et les éoliennes en utilisant des formes primitives et des structures plus complexes avec PShape dans Processing.
+Chaque pylône est composé de segments et d'un sommet en forme de triangle pour une visualisation réaliste.
+Les éoliennes ont été conçues avec des parties mobiles dont les ailes peuvent être animées.
+Animation :
+L'animation des ailes des éoliennes a été réalisée en utilisant des transformations géométriques.
+Nous avons utilisé des rotations pour simuler le mouvement des ailes, rendant ainsi l'animation dynamique et plus réelle. Ainsi que l'option clavier pour afficher/cacher tous les differents structures de notre projet, les cables, les pylons et les eoliennes. 
+Contrôle de la caméra :
+Nous avons implémenté une caméra en 3D que l'utilisateur peut contrôler à l'aide du clavier et de la souris. Cette fonctionnalité permet à l'utilisateur de se déplacer dans l'environnement 3D pour explorer le paysage sous différents angles.
+Éclairage et Shaders :
+Pour améliorer le rendu visuel, nous avons utilisé des shaders personnalisés pour la map. Le texturage a également été appliqué pour donner une apparence plus réaliste au sol et aux objets.
+Interaction Utilisateur :
+Des contrôles interactifs ont été mis en place pour permettre à l'utilisateur de zoomer, de se déplacer, et d'ajuster la direction de la caméra.
+Défis rencontrés
+Parmi les défis rencontrés, ajuster les shaders pour obtenir l'éclairage désiré et synchroniser les animations des éoliennes avec le système de caméra ont été les plus complexes. La gestion de la performance pour maintenir une animation fluide tout en gérant plusieurs objets en 3D a également nécessité des ajustements. De plus, en utilisant le fichier simplify au lieu de Hypersimple, le code ne s'execute plus.
+Conclusion
+Ce projet nous a permis de renforcer nos compétences en programmation 3D avec Processing, en particulier dans les domaines de la modélisation, de l'animation, et de l'interaction utilisateur.
+Nous avons réussi à créer un environnement 3D interactif où les utilisateurs peuvent non seulement observer mais aussi interagir avec les éléments du paysage. Cela a enrichi notre compréhension des principes de l'infographie et posé les bases pour des projets plus avancés dans le futur. 
